@@ -11,6 +11,8 @@ turtle.color("black")
 turtle.circle(50)
 turtle.penup()
 turtle.goto(240,0)
+
+
 turtle.pendown()
 turtle.color("red")
 turtle.circle(50)
