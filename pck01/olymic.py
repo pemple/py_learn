@@ -1,6 +1,7 @@
 # 绘制奥运五环
 import turtle
 
+# 设置画笔的宽度
 turtle.width(5)
 turtle.color("blue")
 turtle.circle(50)
