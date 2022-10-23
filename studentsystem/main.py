@@ -1,4 +1,3 @@
-
 def menu():
     print('''
             ╔———————学生信息管理系统————————╗
@@ -19,9 +18,21 @@ def menu():
     ''')
 
 
+def insert():
+    pass
+
+
 def main():
-    circle=True
+    circle = True
     while circle:
         menu()
+        option = int(input('请输入你的选择：'))
+        if option == 0:
+            print('您已经退出系统')
+            circle = False
+        # 录入学生信息
+        elif option == 1:
+            insert()
+
 
 main()
